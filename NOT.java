@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class NOT extends Instruction {
 
 	public NOT(Processor cpu, Memory memory) {
@@ -15,5 +16,11 @@ public class NOT extends Instruction {
 		}
 		cpu.incrementIP();
 	}
+	
+	@Override
+	public boolean requiresArgument() { 
+		return false; // ONLY override this method for the classes that 
+					 // return false 
+	} 
 
 }

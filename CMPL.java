@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class CMPL extends Instruction {
 
 	public CMPL(Processor cpu, Memory memory) {

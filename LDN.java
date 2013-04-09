@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class LDN extends Instruction{
 
 	public LDN(Processor cpu, Memory memory) {

@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class HALT extends Instruction {
 
 	public HALT(Processor cpu, Memory memory) {
@@ -10,4 +11,11 @@ public class HALT extends Instruction {
 	public void execute(int arg) throws DataAccessException {
 
 	}
+	
+	@Override
+	public boolean requiresArgument() { 
+		return false; // ONLY override this method for the classes that 
+					 // return false 
+	} 
+	
 }

@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class AND extends Instruction {
 
 	public AND(Processor cpu, Memory memory) {

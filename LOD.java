@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class LOD extends Instruction{
 
 	public LOD(Processor cpu, Memory memory) {

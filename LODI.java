@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class LODI extends Instruction{
 
 	public LODI(Processor cpu, Memory memory) {
@@ -9,6 +11,11 @@ public class LODI extends Instruction{
 	public void execute(int arg) throws DataAccessException {
 		    cpu.setAccumulator(arg);
 		    cpu.incrementIP();
+	}
+	
+	@Override
+	public boolean isImmediate() {
+		    return true;
 	}
 	
 }

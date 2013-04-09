@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class ANDI extends Instruction {
 
 	public ANDI(Processor cpu, Memory memory) {
@@ -14,6 +15,11 @@ public class ANDI extends Instruction {
 			cpu.setAccumulator(0);
 		}
 		cpu.incrementIP();
+	}
+	
+	@Override
+	public boolean isImmediate() {
+		    return true;
 	}
 
 }

@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class JUMP extends Instruction{
 
 	public JUMP(Processor cpu, Memory memory) {

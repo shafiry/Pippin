@@ -40,8 +40,8 @@ public class Tester {
 
 	}
 
-	public static void main(String[] args) throws DataAccessException {
-		for (int i = 0; i < memory.DATA_SIZE; i++) {
+	public static void main(String[] args) throws DataAccessException, CodeAccessException {
+		for (int i = 0; i < Memory.DATA_SIZE; i++) {
 			memory.setData(i, 5 * i);
 		}
 

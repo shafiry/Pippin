@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class STN extends Instruction{
 
 	public STN(Processor cpu, Memory memory) {

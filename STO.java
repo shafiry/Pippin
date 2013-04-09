@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class STO extends Instruction{
 
 	public STO(Processor cpu, Memory memory) {

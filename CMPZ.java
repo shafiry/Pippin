@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class CMPZ extends Instruction {
 
 	public CMPZ(Processor cpu, Memory memory) {

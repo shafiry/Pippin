@@ -1,4 +1,6 @@
 package pippin;
+
+
 public class JMPN extends Instruction{
 
 	public JMPN(Processor cpu, Memory memory) {

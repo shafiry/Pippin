@@ -1,5 +1,6 @@
 package pippin;
 
+
 public class JMZN extends Instruction {
 
 	public JMZN(Processor cpu, Memory memory) {
