@@ -1,5 +1,7 @@
 package pippin;
 
+import java.io.IOException;
+
 public class DataAccessException extends Exception {
 
 	/**
